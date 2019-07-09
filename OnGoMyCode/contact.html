@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container-fluid">
+     <div class="row">
+            <nav class="navbar navbar-default" id="nav">
+                    <div class="container-fluid">
+                      <div class="navbar-lerf">
+                            <div class="logo"><a href="#"><img src="res/logo.jpeg"></a></div>
+                      </div>
+                      <div class="navbar-header">
+                        <!--a class="navbar-brand" href="#">WebSiteName</a>
+                           navbar-default -->
+                      </div>
+                      <ul class="nav navbar-nav" id="menu">
+                        <li><a href="file:///C:/Users/Gaetan%20O/Desktop/GoMyCode/OnGoMyCode/index2.html">HOME</a></li>
+                        <li><a href="file:///C:/Users/Gaetan%20O/Desktop/GoMyCode/OnGoMyCode/courses.html">COURSES</a></li>
+                        <li class="active"><a href="file:///C:/Users/Gaetan%20O/Desktop/GoMyCode/OnGoMyCode/contact.html">CONTACT</a></li>
+                      </ul>
+                    </div>
+                  </nav>
+        <!--
+        <div class="container-fluid">
+        <div class="row">
+        <nav class="navbar navbar-light bg-light">           
+        <div class="barre">
+            <div class="logo"><a href="#"><img src="res/logo.jpeg"></a></div>
+        <center>
+            <ul class="menu">
+                <li><a href="file:///C:/Users/Gaetan%20O/Desktop/GoMyCode/OnGoMyCode/index.html"><b>HOME</b></a></li>
+                <li><a href="file:///C:/Users/Gaetan%20O/Desktop/GoMyCode/OnGoMyCode/courses.html"><b>COURSES</b></a></li>
+                <li><a href="file:///C:/Users/Gaetan%20O/Desktop/GoMyCode/OnGoMyCode/contact.html"> <b>CONTACT</b></a></li>
+            </ul>
+        </center>
+        </div>
+        </nav>
+        </div>
+        </div>
+        -->
+        <center>
+            <div class="contact">
+                <h1 id="text">CONTACT</h1>
+            </div>
+        </center>
+        <form id="contactForm">
+        <div class="form">
+        <div class="form-group">
+            <label> <span><b>Name</b></span> </label><br>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+        </div> 
+        <!--id="name"-->
+        <div class="form-group">    
+            <label for="exampleFormControlSelect2"> <span><b>Track</b></span> </label><br>
+            <select  class="form-control" id="option" >
+                <option  class="opt" value="Web">Web</option>
+                <option  class="opt" value="Game">Game</option>
+                <option  class="opt" value="AI">AI</option>
+            </select>
+        </div>  
+        <!--id="track"-->  
+        <div class="form-group">
+            <label><span><b>Email adress</b></span></label><br>
+            <input type="email" class="form-control" placeholder="name@example.com" id="email" >
+        </div>    
+        <!--id="email"-->
+        <div class="form-group">
+            <label><span><b>Phone number</b></span></label><br>
+            <input type="number" placeholder="your phone number" multiple class="form-control" id="PhoneNumber" >
+        </div>
+        <!--id="phone"-->   
+            <input type="submit" value="submit"  class="btn btn-primary" id="submitForm"><br><br>     
+        </div>
+            <!--id="submit"-->
+       </form>
+     </div>
+    </div>
+</body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-database.js"></script>
+<script src="js/main.js"></script>
+</html>

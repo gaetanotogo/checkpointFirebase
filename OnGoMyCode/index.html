@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <title>Document</title>
+</head>
+<body> 
+    <div class="container-fluid">
+            <div class="row">
+                    <nav class="navbar navbar-default" id="nav">
+                            <div class="container-fluid">
+                              <div class="navbar-lerf">
+                                    <div class="logo"><a href="#"><img src="res/logo.jpeg"></a></div>
+                              </div>
+                              <div class="navbar-header">
+                                <!--a class="navbar-brand" href="#">WebSiteName</a>
+                                   navbar-default -->
+                              </div>
+                              <ul class="nav navbar-nav" id="menu">
+                                <li class="active"><a href="file:///C:/Users/Gaetan%20O/Desktop/GoMyCode/OnGoMyCode/index.html">HOME</a></li>
+                                <li><a href="file:///C:/Users/Gaetan%20O/Desktop/GoMyCode/OnGoMyCode/courses.html">COURSES</a></li>
+                                <li><a href="file:///C:/Users/Gaetan%20O/Desktop/GoMyCode/OnGoMyCode/contact.html">CONTACT</a></li>
+                              </ul>
+                            </div>
+                          </nav>  
+    <!--
+                <div class="container-fluid">
+        <div class="row">
+        <nav class="navbar navbar-light bg-light">                
+        <div class="barre">
+                <div class="logo"><a href="#"><img src="res/logo.jpeg"></a></div>
+            <center>
+                <ul class="menu">
+                    <li><a href="file:///C:/Users/Gaetan%20O/Desktop/GoMyCode/OnGoMyCode/index.html"><b>HOME</b></a></li>
+                    <li><a href="file:///C:/Users/Gaetan%20O/Desktop/GoMyCode/OnGoMyCode/courses.html"><b>COURSES</b></a></li>
+                    <li><a href="file:///C:/Users/Gaetan%20O/Desktop/GoMyCode/OnGoMyCode/contact.html"> <b>CONTACT</b></a></li>
+                </ul>
+            </center>
+        </div>
+    </nav>
+    </div>
+    </div>
+    -->    
+        <!--div class="diapo"-->
+        <div id="my_carousel" class="carousel slide" data-ride="carousel">
+                <!--bulle-->
+                <ol class="carousel-indicators">
+                        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel" data-slide-to="2"></li>
+                        <li data-target="#carousel" data-slide-to="3"></li>
+                </ol>
+                <!--Slides-->
+                <div class="carousel-inner" >
+                    <!--page1-->
+                    <div  class="item active">
+                        <div class="carousel-page">
+                            <img src="res/img1.jpeg"  width="100%" height="700" >                
+                        </div>
+                    </div>
+                    <!--page2-->
+                    <div  class="item">
+                        <div class="carousel-page">
+                            <img src="res/img2.jpeg" width="100%" height="700" >
+                        </div>
+                    </div>
+                    <!--page3-->
+                    <div class="item">
+                        <div class="carousel-page">
+                            <img src="res/img3.jpeg" width="100%" height="700">
+                        </div>
+                    </div>
+                </div>
+                <!--controle de diapo-->
+                <a class="left carousel-control" href="#my_carousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#my_carousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+
+            </div>
+        
+        <!--center-->
+        <!--div class="listcours"-->
+        <div class="row">
+            <h1>Courses</h1>
+            <div id="ex1" class="modal">
+                <div>Salut bonjour</div>
+                <p>Thanks for clicking. That felt good.</p>
+                <a href="#" rel="modal:close">Close</a>
+              </div>
+            <div id="block1" class="col-lg-4 col-xs-5 col-sm-4 col-md-3">
+                <div id="cours1" class="col-lg-4 col-xs-5 col-sm-4 col-md-3">
+                        <a href="#ex1" rel="modal:open"><button id="mybut1">view more</button></a>
+                </div>
+            </div>
+
+            <div id="block2" class="col-lg-4 col-xs-5 col-sm-4 col-md-3">
+                <div id="cours2" class="col-lg-4 col-xs-5 col-sm-4 col-md-3">
+                        <a href="#ex1" rel="modal:open"><button id="mybut2">view more</button></a>
+                </div>
+            </div>
+            
+            <div id="block3" class="col-lg-4 col-xs-5 col-sm-4 col-md-3">
+                <div id="cours3" class="col-lg-3 col-xs-4 col-sm-3 col-md-2">
+                        <a href="#ex1" rel="modal:open"><button id="mybut3">view more</button></a>
+                </div>
+            </div>
+            <br><br>         
+                    <p id="lien"><a href="file:///C:/Users/Gaetan%20O/Desktop/GoMyCode/OnGoMyCode/courses.html">View more...</a></p>
+        </div>
+        <!--/div-->
+    
+    <!--/center-->
+
+    <center>
+        <div class="part3">
+            <h1 class="titre">More about GoMyCode</h1>
+            <div class="vidéo">
+                <iframe src="https://youtu.be/F4fbwKV9dBU" width="525" height="425"></iframe>
+            </div> 
+        </div>
+    </center>
+    </div>
+    </div>
+</body>
+<script src="js/index.js"></script>
+
+</html>
